@@ -7,7 +7,7 @@ createClient({
     ...defaultPlugins,
     {
       name: "@hey-api/client-fetch",
-      runtimeConfigPath: path.resolve(__dirname, "heyapi-config.ts"),
+      runtimeConfigPath: path.resolve("heyapi-config.ts"),
     },
   ],
 });
