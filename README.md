@@ -1,6 +1,6 @@
 # heyapi-opaque-errors
 
-This is a minimal reproduction repo demonstrating opaque error output from the `@hey-api/openapi-ts` package. The issue occurs when an expected config file is missing, and the resulting error logs are difficult to interpret due to references to minified bundle code.
+This is a minimal reproduction repo demonstrating opaque error output from the `@hey-api/openapi-ts` package. Although the file is there, it is resulting in a file not found error.
 
 ## How to Run
 
